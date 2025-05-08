@@ -1,4 +1,10 @@
-This repository comprises the following projects:
- 
-* TASK 1: Chatbot with Rule-Based Responses: A simple chatbot implemented in chattie_gui.py, which responds to user inputs based on predefined rules defined within the code.
-* TASK 2: Tic-Tac-Toe AI: An artificial intelligence agent implemented in tictactoe_gui.py, designed to play the classic game of Tic-Tac-Toe against a human player. The AI utilizes the minimax algorithm without alpha-beta pruning, offering the option for the AI player to be unbeatable or random.
+📁 Projects in This Repository
+✅ TASK 1: Chatbot with Rule-Based Responses
+A simple chatbot implemented in `chattie_gui.py`, which responds to user inputs based on predefined rules hardcoded within the application.
+✅ TASK 2: Tic-Tac-Toe AI
+An artificial intelligence agent implemented in `tictactoe_gui.py`, designed to play the classic game of Tic-Tac-Toe against a human player.
+The AI uses the **minimax algorithm** (without alpha-beta pruning), with options to toggle between **unbeatable AI** and **random moves**.
+✅ TASK 3: Movie Recommendation System
+A content-based movie recommender system implemented in `app.py`, utilizing movie metadata to suggest similar titles.
+This system uses datasets sourced from Kaggle.
+**Note:** Due to large file size constraints, the CSV files (`movies.csv`, `credits.csv`, etc.) are **not uploaded** to this repository. Please download them separately from [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) and place them in the appropriate directory before running the application.

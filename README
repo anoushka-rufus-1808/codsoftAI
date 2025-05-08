@@ -1,3 +1,4 @@
-this is my CODSOFT AI INTERNSHIP repository
-chattie.py and chattie_gui.py belong to TASK 1: CHATBOT WITH RULE BASED RESPONSES (a simple chatbot that responds to user inputs based on predefined rules defined in the code)
-tictactoe_gui.py belong to TASK 2: TIC-TAC-TOE AI (an AI agent that plays the classic game of Tic-Tac-Toe against a human player. Used minimax algorithm without alphabeta pruning. Gave an option for ai player to be unbeatable or random)
+This repository comprises the following projects:
+ 
+* TASK 1: Chatbot with Rule-Based Responses: A simple chatbot implemented in chattie_gui.py, which responds to user inputs based on predefined rules defined within the code.
+* TASK 2: Tic-Tac-Toe AI: An artificial intelligence agent implemented in tictactoe_gui.py, designed to play the classic game of Tic-Tac-Toe against a human player. The AI utilizes the minimax algorithm without alpha-beta pruning, offering the option for the AI player to be unbeatable or random.

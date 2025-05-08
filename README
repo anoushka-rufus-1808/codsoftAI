@@ -1,2 +1,3 @@
 this is my CODSOFT AI INTERNSHIP repository
-chattie.py and chattie_gui.py belong to TASK 1: CHATBOT WITH RULE BASED RESPONSES
+chattie.py and chattie_gui.py belong to TASK 1: CHATBOT WITH RULE BASED RESPONSES (a simple chatbot that responds to user inputs based on predefined rules defined in the code)
+tictactoe_gui.py belong to TASK 2: TIC-TAC-TOE AI (an AI agent that plays the classic game of Tic-Tac-Toe against a human player. Used minimax algorithm without alphabeta pruning. Gave an option for ai player to be unbeatable or random)

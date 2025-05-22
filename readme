@@ -1,0 +1,65 @@
+🎓 CODSOFT Internship Projects – Artificial Intelligence
+Welcome to my Artificial Intelligence Internship Projects Repository as part of the CodSoft Internship Program. This repository contains the implementations of the three tasks I completed during the internship, focusing on building real-world AI applications with Python.
+📁 Projects in This Repository
+✅ TASK 1: Rule-Based Chatbot (`chattie_gui.py`)
+A simple chatbot with a GUI built using `tkinter`.
+Features:
+* Responds to user input based on a predefined intent dictionary
+* Simulates typing delay and includes basic memory (e.g., remembers your name)
+* Detects keywords to reply with relevant messages
+* Provides greetings, jokes, time, emotional support, and more
+💡 A simple introduction to natural language processing concepts through rule-based logic.
+---
+✅ TASK 2: Tic-Tac-Toe AI Game (`tictactoe_gui.py`)
+An AI agent plays Tic-Tac-Toe against a human player in this GUI-based game.
+Features:
+* Built with `tkinter`
+* Supports two AI difficulty levels:
+  * Unbeatable AI using the Minimax algorithm
+  * Random AI for easier gameplay
+* Detects win/loss/draw and allows game restart
+🧠 A practical way to learn game theory and search algorithms.
+---
+✅ TASK 3: Movie Recommendation System (`app.py`)
+
+A content-based movie recommendation system built with `Streamlit`.
+Features:
+* Uses TF-IDF and SVD for text vectorization and dimensionality reduction
+* Employs Nearest Neighbors to find similar movies
+* User-friendly UI to:
+  * Search movies
+  * Filter by genre (if available)
+  * Get personalized recommendations
+⚠️ **Note:** The required dataset (`clean_movies_dataset.csv`) is not included in this repo.
+Please download it from [Kaggle TMDB Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) or prepare your own version with columns like `title`, `genre`, and `content`.
+---
+🚀 How to Run Each Project
+ 1. Chatbot (`chattie_gui.py`)
+
+```bash
+python chattie_gui.py
+```
+
+2. Tic-Tac-Toe AI (`tictactoe_gui.py`)
+
+```bash
+python tictactoe_gui.py
+```
+
+3. Movie Recommender (`app.py`)
+
+```bash
+pip install streamlit pandas scikit-learn numpy
+streamlit run app.py
+```
+
+Ensure you place `clean_movies_dataset.csv` in the same directory as `app.py`.
+
+---
+
+📌 About the Internship
+It demonstrates practical applications of AI in various domains:
+* Rule-Based Logic & NLP
+* Game AI & Search Algorithms
+* Recommender Systems & Content Filtering
+🔗 For more information about the program, visit [codsoft.in](https://www.codsoft.in)
